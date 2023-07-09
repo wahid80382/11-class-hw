@@ -1,0 +1,251 @@
+/* main css start */
+:root {
+    --heading: 'Abril Fatface', cursive;
+    --primary-font: 'Open Sans', sans-serif;
+    --secand-font: 'Ubuntu', sans-serif;
+    --primary-color:#0f2f44;
+    --button-color: #ffc712;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.frame {
+    width: 1170px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+body {
+    font-family: var(--primary-font);
+    color:var(--primary-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+h2,h6,li,button{
+    font-family: var(--secand-font);
+    
+}
+h1,h4{
+    font-family: var(--heading);
+    font-weight: 400;
+}
+.w50 {
+    width: 50%;
+}
+.w100{
+    width: 100%;
+}
+.icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid #999999;
+    color: #999999;
+}
+button{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 44px;
+    padding: 16px 20px;
+    background-color: var(--button-color) ;
+    border-radius: 5px;
+    border: none;
+}
+.head h6{
+    font-weight: 300;
+    text-align: center;
+}
+.head h4{
+    font-size: 32px;
+    text-align: center;
+}
+.return-position{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color:#ffc712;
+    width:100pxpx;
+    border-radius: 50%;
+    color: #b44430;
+    text-align: center;
+
+}
+/* main css end */
+/* nav css start */
+#manu1 {
+    background-color: #0f2f44;
+}
+#manu1 ul {
+    justify-content: space-between;
+    padding: 19px 0;
+    color: #fefefe;
+    font-size: 16px;
+}
+nav #manu2 {
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 1px;
+
+}
+nav #manu2 li {
+    padding: 33px 19px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+}
+nav #manu2 li:nth-child(1) {
+    color: #ffc712;
+    background-color: #fff9e6;
+}
+nav #manu2 li select {
+    border: none
+}
+nav #manu2 li:nth-child(8) {
+    padding-right: 0;
+}
+
+/* nav css  end*/
+/* your seccess start */
+#your-seccess {
+    background-color: #e0eeff;
+    
+}
+#your-seccess div .info {
+    padding: 142px 0;
+    width: 40%;
+}
+#your-seccess div .info h2 {
+    font-size: 20px;
+    font-weight: 300;
+}
+#your-seccess div .info h1 {
+  
+    font-size: 80px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding-bottom: 13px;
+}
+#your-seccess div .info h3 {
+    font-family: var(--secand-font);
+    font-size: 32px;
+    color: #8484bf;
+    letter-spacing: 24px;
+    font-weight: 400;
+    
+}
+#your-seccess div .info p {
+   
+    text-align: justify;
+    padding:30px 0;
+}
+
+#your-seccess div .info .icon-2{
+    display: inline;
+    color:#8484bf;
+  
+}
+#your-seccess .your_success_img{
+    width: 60%;
+    align-self: flex-end;
+    height: 100%;
+}
+#your-seccess div img {
+    width: 110%;
+}
+#your-seccess div button{
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #8484bf;
+    color:#ffffff;
+   
+}
+
+/* your seccess end */
+/* about-us css start */
+#about-us .head h6{
+    text-align: left;
+}
+#about-us .head h4{
+    text-align: left;
+}
+#about-us{
+    padding-top:73px;
+}
+#about-us .about-info p{
+    font-size: 16px;
+    padding:32px 0;
+}
+#about-us .about-info li{
+    font-size: 16px;
+    line-height: 44px;
+    padding:0 30px;
+    
+}
+#about-us .about-info ul{
+    padding-bottom: 33px;
+}
+#about-us div .sp-button{
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #ffffff;
+    color:#0f2f44;
+    margin: 20px;
+   
+}
+/* about-us css end */
+/* our skill css start */
+#our-skill {
+    padding-top:100px;
+}
+#our-skill .head h6{
+    text-align:right;
+}
+#our-skill .head h4{
+    text-align: right;
+}
+#our-skill .head p{
+    text-align: right;
+    padding-top:30px;
+}
+#our-skill .chart_box .chart_info{
+    width: 80%;
+}
+#our-skill .chart_box .chart_info p{
+    justify-content: space-between;
+}
+#our-skill .chart_box{
+    align-items: center;
+}
+#our-skill .chart_box .chart_info .skill_track{
+    width: 100%;
+    height: 10px;
+    background-color: #dddddd;
+    border-radius: 10px;
+}
+#our-skill .chart_box .chart_info .skill_track .skill_bar{
+    height: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+}
+#our-skill .chart_box .chart_img{
+    width: 20%;
+}
+#our-skill .chart_box .chart_img img{
+    border: 15px solid lightgray;
+    border-radius: 50%;
+}
+/* our skill css end */
